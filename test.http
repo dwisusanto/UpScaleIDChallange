@@ -1,0 +1,23 @@
+GET http://localhost:4000/tasks HTTP/1.1
+
+GET http://localhost:4000/tasks/2 HTTP/1.1
+
+DELETE http://localhost:4000/tasks/2 HTTP/1.1
+
+POST http://localhost:4000/tasks HTTP/1.1
+content-type: application/json
+
+{
+    "title": "task 2",
+    "description": "second task",
+    "completed": 0
+}
+
+PATCH  http://localhost:4000/tasks/3 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "task 3",
+    "description": "[Edit] second task",
+    "completed": 0
+}
