@@ -20,18 +20,16 @@ Requirements:
 3. Use proper error handling and logging to ensure that the API is robust and easy to debug.
 4. Use Git for version control and include a README file with instructions on how to run the application.
 
-## What I do
+## Steo by step
 ### Step 1: Install and set up the project
-1. Install Node.js and NPM on your computer.
-2. Create a new project folder and navigate to it.
-3. Initialize a new Node.js project using the following command: npm init -y
-4. Install the following dependencies using the following command: npm install express mysql body-parser cors
-5. Create a new file server.js in the project folder.
+1. Create a new project folder and navigate to it.
+2. Initialize a new Node.js project using the following command: npm init -y
+3. Install the following dependencies using the following command: npm install express mysql body-parser cors
+4. Create a new file server.js in the project folder.
 
 ### Step 2: Set up the database
-1. Install MySQL on your computer.
-2. Create a new database for the project.
-3. Create a new table for tasks.
+1. Create a new database for the project.
+2. Create a new table for tasks.
 
 ### Step 3: Define the API endpoints
 1. In the server.js file, define the API endpoints using Express.js routing.
@@ -39,7 +37,21 @@ Requirements:
 3. Use MySQL to interact with the database.
 
 ### Step 4: Test the API endpoints
-1. Use Postman or a similar tool to test the API endpoints.
+1. Use restclient in vs code to test the API endpoints.
 2. Verify that the endpoints are working as expected.
 3. Use proper error handling and logging to ensure that the API is robust and easy to debug.
 
+# How to install
+### Step 1: Install and set up the project
+1. Create a new project folder and navigate to it.
+2. Initialize a new Node.js project using the following command: npm init -y
+3. Install the following dependencies using the following command: npm install express mysql body-parser cors
+4. Copy file server.js in the project folder.
+
+### Step 2: Set up the database
+1. Dump mysql database from file db.sql
+2. Setting database connection at file server.js
+
+### Step 3: Run and test
+1. Run node using command: node server.js
+2. Test API using rest client
