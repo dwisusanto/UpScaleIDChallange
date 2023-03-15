@@ -1,4 +1,4 @@
-# UpScaleIDChallange
+# Up Scale ID Challange
 
 ## The Challange
 Build simple APIs for task management applications using Node.js and Express.js. The API must support the following endpoints:
@@ -20,7 +20,7 @@ Requirements:
 3. Use proper error handling and logging to ensure that the API is robust and easy to debug.
 4. Use Git for version control and include a README file with instructions on how to run the application.
 
-## Steo by step
+## Step by step
 ### Step 1: Install and set up the project
 1. Create a new project folder and navigate to it.
 2. Initialize a new Node.js project using the following command: npm init -y
